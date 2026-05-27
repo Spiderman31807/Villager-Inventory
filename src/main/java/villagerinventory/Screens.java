@@ -1,0 +1,14 @@
+package villagerinventory;
+
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
+
+@EventBusSubscriber(value = Dist.CLIENT)
+public class Screens {
+	@SubscribeEvent
+	public static void clientLoad(RegisterMenuScreensEvent event) {
+		event.register(Menus.Inventory.get(), InventoryScreen::new);
+	}
+}

@@ -1,0 +1,113 @@
+{
+  "mod_elements": [
+    {
+      "name": "InventoryScreen",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "inventory_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/villagerinventory/InventoryScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "InventoryMenu",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "inventory_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/villagerinventory/InventoryMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Menus",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "menus",
+      "metadata": {
+        "files": [
+          "src/main/java/villagerinventory/Menus.java"
+        ]
+      }
+    },
+    {
+      "name": "Screens",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "screens",
+      "metadata": {
+        "files": [
+          "src/main/java/villagerinventory/Screens.java"
+        ]
+      }
+    },
+    {
+      "name": "ViewableInventory",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "viewable_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/villagerinventory/ViewableInventory.java"
+        ]
+      }
+    },
+    {
+      "name": "VillagerMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "villager_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/villagerinventory/VillagerMixin.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/villagerinventory/VillagerInventoryMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "villager_inventory",
+    "modName": "Villager Inventory",
+    "version": "1.0.3",
+    "description": "Allows players to interact with a Villagers Inventory",
+    "author": "Spiderman318",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/villager-inventory",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "villager",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "villagerinventory"
+  },
+  "mcreatorVersion": 202500342611
+}
