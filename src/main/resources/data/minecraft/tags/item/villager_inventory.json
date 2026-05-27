@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beetroot_seeds",
+    "minecraft:torchflower_seeds",
+    "minecraft:wheat",
+    "minecraft:wheat_seeds",
+    {
+      "id": "#minecraft:villager_food",
+      "required": false
+    },
+    "minecraft:pitcher_pod"
+  ]
+}
